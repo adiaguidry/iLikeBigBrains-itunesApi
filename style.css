@@ -1,0 +1,31 @@
+body{
+    font-family: 'Candal', sans-serif;}
+ul li{
+    list-style: none;
+}
+ul li a, h3 {
+    text-decoration: none;
+    font-size: 2em;
+    color:  #F778A1;
+}
+.page-header  {
+    font-size: 4em;
+}
+
+.audiobooks{
+    width: 35%;
+    height: 80px;
+    margin: 1%;
+    overflow: hidden;
+    border: 2px solid #F778A1;
+}
+
+.books {
+    width: 30%;
+    height: 30%;
+    overflow: hidden;
+}
+
+footer {
+    margin: 50px 0;
+}
