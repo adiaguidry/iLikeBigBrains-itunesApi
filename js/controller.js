@@ -19,6 +19,7 @@ book.controller('routeCtrl', function ($routeProvider) {
                 templateUrl: 'pages/business.html',
                 controller: 'businessCtrl'
             })
+            .otherwise('/business');
     });
 book.controller('bookCtrl', function ($http, $log, $scope) {
     this.category = "All Categories";
