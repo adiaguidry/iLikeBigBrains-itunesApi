@@ -25,6 +25,6 @@
   - sub item
     - sub sub item
 
-> 1 numbered item
-1 numbered item 2
-1 numbered item 3
+> 1. numbered item
+1. numbered item 2
+1. numbered item 3
