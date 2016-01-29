@@ -15,7 +15,7 @@
 </head>
 
 
-<body ng-app="mainApp">
+<body ng-app="mainApp"  style="background-color: #333333; height: 100vh;">
 <!-- Page Content -->
 <div>
 
@@ -34,17 +34,20 @@
             </div>
 
         </div>
-        <div class="col-lg-8" ng-view>
+        <div class="col-lg-8 mid col-centered">
+            <div ng-view>
 
+            </div>
         </div>
 
-        <div ng-controller="audioCtrl" class="col-lg-2">
-            <img width="200px" src="images/brain_workout.png">
+        <div ng-controller="audioCtrl" class="col-lg-2 text-center">
+            <img width="200px" class="workout_brain" src="images/brain_workout.png">
+            <p id="song" class="text-center"></p>
             <h3>Audio Books</h3>
             <div>
                 <div ng-repeat="img in images" class="audiobooks col-md-6 text-center">
                     <img class="img-responsive" src="{{ img }}" alt="">
-                    <i class="fa fa-headphones fa-lg"></i>
+                    <br>
                 </div>
             </div>
         </div>

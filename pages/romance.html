@@ -1,7 +1,7 @@
 <div ng-controller="romanceCtrl as rc" >
     <h1 class="page-header">iLike Big Brains</h1>
     <h1>Top Ten Books in: {{ rc.category }}</h1>
-    <div ng-repeat="img in images" class="books col-md-3">
+    <div ng-repeat="img in images" class="books col-md-4">
         <a class="thumbnail" href="#">{{ books.title.label }}
             <img class="img-responsive" src="{{ img }}" alt="">
         </a>
